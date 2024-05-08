@@ -7,8 +7,8 @@ public class David {
 			}
 
 	public static void main(String[] args) {
-		System.out.println("Hola soy David");
-
-	}
+		David persona = new David();
+	
+		persona.decirNombre();
 
 }
